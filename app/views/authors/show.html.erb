@@ -1,0 +1,12 @@
+<h1>
+    <%= @author.first_name %>
+</h1>
+
+<br><br>
+
+<% @books.each do |book| %>
+<div class="row">
+<strong> <%= book.author_id %> </strong>
+<em> <%= book.name %> </em>
+</div>
+<%end%>
