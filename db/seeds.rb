@@ -7,4 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Author.create(first_name: "Miyamoto", last_name: "Musashi", number_of_books: 7, age: 81)
+Author.create(first_name: "MiyaNoto", last_name: "Musashi", number_of_books: 7, age: 81)
+
 Book.create(author_id: 1, name: "The Book of 5 Rings")
+Book.create(author_id: 2, name: "The Book of 10 Dollars")
